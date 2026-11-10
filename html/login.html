@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+
+  <!-- LOGIN SECTION -->
+  <section id="login" class="login-section">
+    <div class="login-container">
+      <a href="#home" class="close-login">✕</a>
+      <div class="login-header">
+        <h2>Welcome <span>Back!</span></h2>
+        <p>Please login to your account.</p>
+      </div>
+
+      <form action="prc.html">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Enter your username" autocomplete="username" pattern="admin" title="Wrong username" required>
+
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="current-password" pattern="1234" title="Wrong password" required>
+        </div>
+
+        <div class="login-options">
+          <label>
+            <input type="checkbox" name="remember"> Remember Me
+          </label>
+          <a href="mailto:your.email@example.com"> Forgot Password? </a>
+        </div>
+
+        <button type="submit" class="login-submit"> Login </button>
+      </form>
+
+      <p class="register-text"> Don't have an account?
+        <a href="https://instagram.com/yourusername" target="_blank">Contact Me on IG</a>
+      </p>
+
+    </div>
+  </section>
+
+</body>
+</html>
